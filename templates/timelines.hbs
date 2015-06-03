@@ -1,8 +1,10 @@
 
+
+
+
 {{#each timelines}}
 
-
-
+<div class="timeStuff">
   <aside>
     <span class="fa-stack fa-lg timeIcon">
       <i class="fa fa-circle fa-stack-2x outer-ring"></i>
@@ -10,27 +12,52 @@
       <i class="fa {{icon}} fa-stack-1x fa-inverse"></i>
     </span>
 
-    
     <div class="timeDate">
       <h4 class="date">{{clockDate}}</h4>
       <h4 class="hour">{{clockHour}}</h4>
     </div>
   </aside>
+</div>
 
 
 <section>
-
-  <div class="rightStuff">
+  <article class="rightStuff">
     <div class="arrow-left"></div>
     <figure>
       <h3>{{title}}</h3>
       <p>{{content}}</p>
     </figure>
-  </div>
-
-  </section>
+  </article>
+</div>
+</section>
 
 {{/each}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       

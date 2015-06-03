@@ -50,18 +50,3 @@ p {
   position: absolute;
   margin-left: -7px;
   margin-top: 7px; }
-
-aside {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 14.70196%;
-  position: relative;
-  height: 100%;
-  margin-left: 40px; }
-  aside:last-child {
-    margin-right: 0; }
-
-.timeStuff {
-  float: left;
-  margin-left: 100px; }

@@ -1,0 +1,99 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+// font!
+
+$mainFont: 'Advent Pro', sans-serif;
+$sizePara: 18px;
+$sizeHead: 25px;
+
+// colors
+
+$borderColor: #9DDCFD;
+$circleColor: #00A3E0;
+$paraColor: #56C0F1;
+$timeColor: #0084CA;
+$fontColor: #FFFFFF;
+$botBorColor: #7AD4F8;
+
+
+
+body{
+  font-family: $mainFont;
+  background-color: #FCFEFF;
+}
+
+// ***********************
+// comment blobs / Section
+// ***********************
+
+.rightStuff{
+height: 290px;
+width: 595px;
+background-color: $paraColor;
+border-radius: 7px;
+margin-left: 210px;
+position: relative;
+}
+
+h3{
+  font-size: $sizeHead;
+  color: $fontColor;
+  border-bottom: 1px solid $botBorColor;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+p{
+  font-size: $sizePara;
+  color: $fontColor;
+  font-weight: 200;
+  line-height: 1.3;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:10px solid $paraColor; 
+  position: absolute;
+  margin-left: -7px;
+  margin-top: 7px;
+}
+
+
+// ***********************
+//  Aside (time and date)
+// ***********************
+
+aside{
+  float: left;
+  border-right: 7px solid $borderColor;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
